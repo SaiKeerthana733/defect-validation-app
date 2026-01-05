@@ -1,0 +1,29 @@
+DEFECT LOG INPUTS AND OUTPUTS
+
+✅ What to enter in the form
+The model was trained on defect summaries, so you should type short descriptions of issues like you’d see in Jira or bug reports. Examples:
+
+- Invalid defect examples (should predict Invalid):
+
+- “Duplicate bug already fixed in previous sprint”
+- “Typo in settings page”
+- “Issue reported without reproduction steps”
+
+
+
+
+
+- Valid defect examples (should predict Valid):
+
+- “App crashes on login when user enters wrong password”
+- “Payment gateway throws null pointer exception during checkout”
+- “Timeout error when fetching user details from API”
+
+
+
+✅ What you’ll see after submitting
+When you click Check Status, the app will return:
+- Status → Valid / Invalid
+- Confidence → e.g. 82.45%
+- Valid % → Session percentage of valid predictions so far
+- Invalid % → Session percentage of invalid predictions so far

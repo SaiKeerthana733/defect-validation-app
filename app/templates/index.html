@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Defect Validation App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Defect Validation</h1>
+        <p class="subtitle">Smart predictions with style ✨</p>
+        <form id="defectForm">
+            <label for="Summary">Enter defect summary:</label>
+            <textarea id="Summary" name="Summary" rows="4" placeholder="Type your defect summary here..."></textarea>
+            <button type="submit">Check Status</button>
+        </form>
+        <div id="result"></div>
+        <div id="confidenceBarContainer">
+            <div id="confidenceBar"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
