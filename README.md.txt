@@ -4,9 +4,9 @@ An end-to-end Machine Learning + Flask project that classifies software defect s
 
 
 ## 📸 Demo
-![Home Page](app/static/UI.png)
-![Valid Input](app/static/Valid_defect.png)
-![Invalid Input](app/static/Invalid_defect.png)
+![Home Page](screenshots/UI.png)
+![Valid Input](screenshots/Valid_defect.png)
+![Invalid Input](screenshots/Invalid_defect.png)
 
 
 ## 🔧 Tech Stack
